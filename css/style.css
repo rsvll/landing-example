@@ -1,5 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+html{
+  font-size: 10px;
+  font-family: 'Bree Serif', serif;
+}
+body{
+  padding-top: 10rem;
+}
+.main-nav{
+  background: black;
+  height: 10rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.landing{
+  background-image: url("../images/birds.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 10rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-size: 3rem;
+  text-align: center;
 }
